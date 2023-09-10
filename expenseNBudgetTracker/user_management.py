@@ -146,7 +146,7 @@ def handle_successful_login(username):
             # Call the function to start the budget planner from the budget_planner.py file
             budget_planner.main(username)
         elif choice == '3':
-            # Call the function to start the GUI from the budget_tracker_gui.py file
+            # Call the function to shows user the graphical representation of monthly spending from the budget_tracker_gui.py file
             budget_tracker_gui.main(username)
         elif choice == '4':
             break
